@@ -10,8 +10,8 @@ function displayLobby() {
     // 타이틀 텍스트
     console.log(
         chalk.cyan(
-            figlet.textSync('Roguelike - Javascript', {
-                font: 'Standard',
+            figlet.textSync(`Roguelike ! `, {
+                font: 'Pagga',
                 horizontalLayout: 'default',
                 verticalLayout: 'default'
             })
@@ -19,7 +19,7 @@ function displayLobby() {
     );
 
     // 상단 경계선
-    const line = chalk.magentaBright('='.repeat(50));
+    const line = chalk.magentaBright('='.repeat(70));
     console.log(line);
 
     // 게임 이름
